@@ -1,6 +1,5 @@
 .conteiner{
     max-width: 1100px;
-    border: 1px solid red;
     margin: 0px auto;
 }
 .top-header{
@@ -60,7 +59,7 @@
     box-sizing:border-box;
     &__info{
         flex: 55%;
-        padding-top: 30px;
+        align-self:center;
         h1{
             font-size: 45px;
         }
@@ -75,6 +74,57 @@
         }
     }
 }
+#fresh-products{
+    background-color:#f5fbfc;
+}
 .fp{
     display: flex;
+    padding: 30PX;
+    box-sizing: border-box;
+
+
+    &__info{
+        flex:60%;
+        align-self: center;
+
+        h1{
+            font-size: 45px;
+        }
+        p{
+            max-width: 80%;
+            color: #aaa;
+            margin-bottom: 40px;
+        }
+    }
+    &__img{
+        flex: 40%;
+        img{
+            width: 100%;
+        }
+    }
+}
+.hiw{
+    padding: 30px;
+    box-sizing:border-box;
+    &__heading{
+        text-align: center;
+        font-size: 45px;
+    }
+    &__content{
+        display: flex;
+        padding: 20px;
+    }
+    &__card{
+        img{
+            width: 80%;
+        }
+        h3{
+            text-align: center;
+        }
+        p{
+            text-align: center;
+            width: 80%;
+            margin: 0 auto;
+        }
+    }
 }

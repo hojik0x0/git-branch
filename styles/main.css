@@ -1,6 +1,5 @@
 .conteiner {
   max-width: 1100px;
-  border: 1px solid red;
   margin: 0px auto;
 }
 
@@ -58,7 +57,7 @@
 }
 .banner__info {
   flex: 55%;
-  padding-top: 30px;
+  align-self: center;
 }
 .banner__info h1 {
   font-size: 45px;
@@ -73,6 +72,54 @@
   width: 100%;
 }
 
+#fresh-products {
+  background-color: #f5fbfc;
+}
+
 .fp {
   display: flex;
+  padding: 30PX;
+  box-sizing: border-box;
+}
+.fp__info {
+  flex: 60%;
+  align-self: center;
+}
+.fp__info h1 {
+  font-size: 45px;
+}
+.fp__info p {
+  max-width: 80%;
+  color: #aaa;
+  margin-bottom: 40px;
+}
+.fp__img {
+  flex: 40%;
+}
+.fp__img img {
+  width: 100%;
+}
+
+.hiw {
+  padding: 30px;
+  box-sizing: border-box;
+}
+.hiw__heading {
+  text-align: center;
+  font-size: 45px;
+}
+.hiw__content {
+  display: flex;
+  padding: 20px;
+}
+.hiw__card img {
+  width: 80%;
+}
+.hiw__card h3 {
+  text-align: center;
+}
+.hiw__card p {
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
 }/*# sourceMappingURL=main.css.map */
